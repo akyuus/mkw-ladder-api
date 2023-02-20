@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mkw-ladder-api"
+version = "0.1.0"
+description = "Backend for the ladder server."
+authors = ["AA <AA?#8128>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mkw_ladder_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.7"
+dependency-injector = "^4.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
