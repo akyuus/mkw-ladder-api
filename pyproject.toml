@@ -11,6 +11,7 @@ packages = [{include = "mkw_ladder_api"}]
 python = "^3.10"
 Django = "^4.1.7"
 dependency-injector = "^4.41.0"
+django-countries = "^7.5.1"
 
 
 [build-system]
